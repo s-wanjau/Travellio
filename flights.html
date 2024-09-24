@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK AND TRAVEL</title>
+    <link rel="stylesheet"  href="main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="flights.html">Flights</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+        </ul>
+    </nav>
+    <section class="flights">
+        
+        
+        <form class="flight-form">
+            <div id="flight-headline"><h2>Book your next flight</h2></div>
+            <div class="form-group">
+                <label>
+                    Departure city
+                    <input type="text" placeholder="Enter departure city" required>
+                </label>
+            </div><br><br>
+            <div class="form-group">
+                <label>
+                    Destination city
+                    <input type="text" placeholder="Enter destination city" required>
+                </label>
+            </div><br><br>
+            <div class="form-group">
+                <label>
+                    Departure date
+                    <input type="date" required>
+                </label>
+            </div><br><br>
+            
+            <div class="form-group">
+                <label>
+                    Type of airline
+                    
+                    <select name="airlines" id="airlines">
+                        <option value="kq" selected>KQ</option>
+                        <option value="ethiopian airlines">Ethiopian airlines</option>
+                        <option value="british airlines">British airways</option>
+                        <option value="klm">KLM</option>
+                        <option value="emirates">Emirates</option>
+                        <option value="qatar airways">Qatar airways</option>
+                        <option value="delta airlines">Delta airlines</option>
+                        <option value="turkish airlines">Turkish airlines</option>
+                    </select>
+                </label> <br><br>
+            </div>
+            <div class="form-group">
+                <label>
+                    The ticket class
+                    <select name="ticket class">
+                        <option value="economy" selected>Economy</option>
+                        <option value="business" >Business</option>
+                        <option value="first class" >First class</option>
+
+                    </select>
+                </label>
+            </div><br><br>
+            <button id="submit">submit</button>
+        </form>
+    </section>
+   
+</body>
+</html>
